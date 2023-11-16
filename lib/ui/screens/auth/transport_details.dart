@@ -155,8 +155,9 @@ class _TransportDetailsState extends State<TransportDetails> {
                             decoration: InputDecoration(
                               labelText: 'LAG -234-JK',
                               prefixIcon: SvgPicture.asset(
-                                  'public/images/svg/plate_no.svg',
-                                  fit: BoxFit.contain),
+                                'public/images/svg/plate_no.svg',
+                                width: 10,
+                              ),
                               floatingLabelBehavior:
                                   FloatingLabelBehavior.never,
                               border: OutlineInputBorder(
